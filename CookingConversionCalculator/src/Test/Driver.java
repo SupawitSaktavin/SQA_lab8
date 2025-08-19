@@ -42,7 +42,7 @@ public class Driver {
 
 		// LiquidVolumeConverter
 		LiquidVolumeConverter liquid = new LiquidVolumeConverter();
-		originalValue = 100.0;
+		originalValue = 13.0;
 		from = "pint";
 		to = "ml";
 
@@ -54,7 +54,7 @@ public class Driver {
 
 		// MassConverter
 		MassConverter mass = new MassConverter();
-		originalValue = 100.0;
+		originalValue = 70.0;
 		from = "kilogram";
 		to = "pound";
 
@@ -66,9 +66,9 @@ public class Driver {
 
 		// TemperatureConverter
 		TemperatureConverter temp = new TemperatureConverter();
-		originalValue = 50.0;
-		from = "fahrenheit";
-		to = "celsius";
+		originalValue = 60.0;
+		from = "celsiusfahrenheit";
+		to = "fahrenheit";
 
 		System.out.println("\nTemperatureConverter");
 		System.out.println("convert from " + from + " to " + to);
